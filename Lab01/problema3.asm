@@ -30,7 +30,7 @@ main:
 while:
     beq $t2, $t3, exit #se $t0 == 0, pula pra exit
  
-       li $v0, 1 #instrucao de escrever int
+    li $v0, 1 #instrucao de escrever int
     move $a0, $t0
     syscall
  
@@ -50,4 +50,3 @@ exit:
     
     li $v0, 10
     syscall
-×
